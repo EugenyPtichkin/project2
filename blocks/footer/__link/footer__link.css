@@ -8,9 +8,11 @@
   font-size: 16px;
   line-height: 18px;  
 }
+.footer__link:hover {
+  opacity: 0.8;;
+}
 @media screen and (max-width: 767px) {
   .footer__link {
-    padding: 0;
     padding-bottom: 32px;
     display: inline-block;
     font-size: 24px;
